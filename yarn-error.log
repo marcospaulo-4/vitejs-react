@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add react-bootstrap/Dropdown
+
+PATH: 
+  /bin:/usr/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://github.com/react-bootstrap/Dropdown: socket hang up
+      at connResetException (https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:6:8256)
+      at TLSSocket.socketOnEnd (https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:6:1086874)
+      at EventEmitter.emit (https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:6:155690)
+      at endReadableNT (https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:6:660227)
+      at _0x1811b5 (https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:15:148126)
+      at https://vitejs-vite-bffu5e.w-credentialless.staticblitz.com/blitz.79ba5d6ed4650f43d3d2f1721ce6e5bef04fff66.js:15:147876
+
+npm manifest: 
+  {
+    "name": "vite-react-starter",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.25",
+      "@types/react-dom": "^18.0.8",
+      "@vitejs/plugin-react": "^2.2.0",
+      "vite": "^3.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
